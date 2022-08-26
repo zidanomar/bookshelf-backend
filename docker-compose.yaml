@@ -1,0 +1,6 @@
+version: '3'
+services:
+  bookshelf:
+    image: 762597908099.dkr.ecr.us-east-1.amazonaws.com/bookshelf:latest
+    ports:
+      - 5000:5000
